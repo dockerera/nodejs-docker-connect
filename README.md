@@ -6,14 +6,8 @@ Create an event emitter from dockerode's events response
 Overview
 --------
 
-Docker exposes an event API, allowing one to monitor the happenings of a Docker
-host. dockerode allows for consumption of this API, albeit in a very raw form.
-docker-events does a bit of work for you, turning the raw API of dockerode into
-something a little more high-level by parsing the response stream and pushing
-things out of an EventEmitter.
-
-API
----
+Turning the raw event response of dockerode into
+something a little more easy to handle docker connect defines some emitter events for you.
 
 ### DockerEvents (constructor)
 
