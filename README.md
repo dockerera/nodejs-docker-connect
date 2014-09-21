@@ -1,4 +1,4 @@
-docker-events
+nodejs-docker-connect
 =============
 
 Create an event emitter from dockerode's events response
@@ -99,14 +99,10 @@ emitter.on("destroy", function(message) {
 });
 ```
 
-License
--------
-
-3-clause BSD. A copy is included with the source.
 
 Contact
 -------
 
-* GitHub ([deoxxa](http://github.com/deoxxa))
-* Twitter ([@deoxxa](http://twitter.com/deoxxa))
-* Email ([deoxxa@fknsrs.biz](mailto:deoxxa@fknsrs.biz))
+* GitHub ([dockerera](http://github.com/dockerera))
+* Twitter ([@frank-dspeed](http://twitter.com/dockerera))
+* Email ([frank@docker-io.de](mailto:frank@docker-io.de))
