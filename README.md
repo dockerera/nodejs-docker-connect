@@ -29,6 +29,18 @@ emitter.start();
 emitter.stop();
 ```
 
+
+
+
+
+### events
+connect
+disconnect
+
+
+
+
+
 ### #connect
 
 ```js
